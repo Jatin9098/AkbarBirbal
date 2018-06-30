@@ -29,10 +29,10 @@ public class SplashScreen extends AppCompatActivity {
        interstitialAd.loadAd(adRequest);
 
 
-       if (interstitialAd.isLoaded())
-            interstitialAd.show();
-       else
-           interstitialAd.loadAd(adRequest);
+//       if (interstitialAd.isLoaded())
+//            interstitialAd.show();
+//       else
+//           interstitialAd.loadAd(adRequest);
 
 
        interstitialAd.setAdListener(new AdListener(){
